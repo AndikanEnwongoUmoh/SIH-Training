@@ -1,0 +1,40 @@
+
+
+
+.sun, .s{
+    color: red;
+}
+.days:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.sun:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+ td{
+    border: 1px solid black;
+    padding: 15px;
+    text-align: center;
+}
+
+th{
+    padding-bottom: 10px;    
+    border: 1px solid black
+}
+table, h2{
+    background-color: rgba(240, 248, 255,0.2);
+    width: 50em;
+    border-collapse: collapse;
+    margin: 30px;
+    
+}
+body{
+    background-image: url(/images/calendar.jpg);
+    background-repeat: repeat;
+    background-size: 100%
+}
+
+
