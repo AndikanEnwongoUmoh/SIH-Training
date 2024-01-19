@@ -1,7 +1,10 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
 
-
-.sun, .s{
+.sun, #s{
     color: red;
 }
 .days:hover{
@@ -24,20 +27,20 @@ th{
     padding-bottom: 10px;    
     border: 1px solid black
 }
-table, h2{
+table{
     background-color: rgba(240, 248, 255,0.8);
     width: 50em;
     border-collapse: collapse;
     margin: 30px;
-    
 }
 h2{
-    background-color: rgba(255,255,255,0);
+    margin: 30px;
 }
 body{
     background-image: url(/images/calendar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
