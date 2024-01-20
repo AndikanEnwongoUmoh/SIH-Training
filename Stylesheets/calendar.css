@@ -1,9 +1,11 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Raleway:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: raleway;
+}
 .sun, #s{
     color: red;
 }
@@ -11,6 +13,7 @@
     background-color: blue;
     color: white;
     cursor: pointer;
+    
 }
 .sun:hover{
     background-color: blue;
@@ -21,26 +24,103 @@
     border: 1px solid black;
     padding: 15px;
     text-align: center;
+
 }
 
 th{
     padding-bottom: 10px;    
-    border: 1px solid black
+    border: 1px solid black;
 }
 table{
     background-color: rgba(240, 248, 255,0.8);
-    width: 50em;
+    width: 30em;
     border-collapse: collapse;
-    margin: 30px;
+    margin: 30px 30px 30px 70px;
+    /* display: flexbox; */
 }
 h2{
-    margin: 30px;
+    margin: 30px 30px 30px 70px;
 }
 body{
     background-image: url(/images/calendar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+}
+.month{
+    display: inline-block;
+    
+
+}
+
+h1{
+    font-weight: bolder;
+    font-size: 100px;
+}
+
+title{
+    font-family: raleway;
+}
+#ny:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#gf:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#ea:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#fi:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#wd:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#cd:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#de:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#ka:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#ma:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#in:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#c:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#box:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
 
 
