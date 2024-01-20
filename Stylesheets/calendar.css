@@ -72,12 +72,12 @@ title{
     color: white;
     cursor: pointer;
 }
-#ea:hover{
+#eas:hover{
     background-color: red;
     color: white;
     cursor: pointer;
 }
-#fi:hover{
+#fit:hover{
     background-color: red;
     color: white;
     cursor: pointer;
@@ -92,17 +92,17 @@ title{
     color: white;
     cursor: pointer;
 }
-#de:hover{
+#dem:hover{
     background-color: red;
     color: white;
     cursor: pointer;
 }
-#ka:hover{
+#kab:hover{
     background-color: red;
     color: white;
     cursor: pointer;
 }
-#ma:hover{
+#mal:hover{
     background-color: red;
     color: white;
     cursor: pointer;
@@ -121,6 +121,23 @@ title{
     background-color: red;
     color: white;
     cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-size: 20px;
+    border: none ;
+    background-color: rgb(1, 11, 19);
+    color: white;
+}
+p{
+    padding: 10px;
+}
+header{
+    text-align: center;
+    font-size: 20px;
+    border: none ;
+    background-color: rgb(1, 11, 19);
+    color: white; 
 }
 
 
