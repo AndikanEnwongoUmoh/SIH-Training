@@ -15,10 +15,16 @@ body{
     cursor: pointer;
     
 }
+.days:active{
+    background-color: #a0c4fa;
+}
 .sun:hover{
     background-color: blue;
     color: white;
     cursor: pointer;
+}
+.sun:active{
+    background-color: #a0c4fa
 }
  td{
     border: 1px solid black;
@@ -119,6 +125,66 @@ title{
 }
 #box:hover{
     background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#ny:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#gf:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#eas:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#fit:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#wd:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#cd:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#dem:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#kab:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#mal:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#in:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#c:active{
+    background-color: #ff9292;
+    color: white;
+    cursor: pointer;
+}
+#box:active{
+    background-color: #ff9292;
     color: white;
     cursor: pointer;
 }
