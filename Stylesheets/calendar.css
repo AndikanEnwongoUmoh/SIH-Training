@@ -5,6 +5,11 @@
 }
 body{
     font-family: raleway;
+    
+}
+.cal{
+    margin: auto;
+    width: 95%;
 }
 .sun, #s{
     color: red;
@@ -39,10 +44,9 @@ th{
 }
 table{
     background-color: rgba(240, 248, 255,0.8);
-    width: 30em;
+    width: 80%;
     border-collapse: collapse;
     margin: 30px 30px 30px 70px;
-    /* display: flexbox; */
 }
 h2{
     margin: 30px 30px 30px 70px;

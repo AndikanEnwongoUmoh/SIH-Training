@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gaegu:wght@300&family=Grape+Nuts&family=Raleway:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+}
+h1{
+    color: black;
+    margin: 10px;
+    display: inline-block;
+    font-size: 60px;
+}
+span{
+    color: white;
+    font-size: 32px;
+}
+#style{
+    font-size: 60px;
+}
+body{
+    background-color: grey;
+    color: white;
+    display: inline-block;
+    font-family: 'Gaegu', sans-serif;
+    /* font-family: 'Grape Nuts', cursive; */
+    /* font-family: 'Raleway', sans-serif; */
+}
+header{
+    background-color: #292936;
+    padding: 30px;
+    background-attachment: fixed;
+}
+ul{
+    text-align: right;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+li:hover{
+    text-decoration: underline;
+    border: solid white 1px;
+    padding: 5px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+}
+button{
+    background-color: grey;
+    color: white;
+    border: solid black 5px;
+    padding: 20px;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+    border: solid white 5px;
+}
+button:active{
+    background-color: puple;
+    color: white;
+    border: solid white 5px;
+}
+.content, .container{
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    box-sizing: border-box; 
+}
+.all{
+    margin: auto;
+    text-align: center;
+    
+}
+.content{
+    text-align: left;
+}
+.inner{
+    height: 360px;
+    width: 300px;
+    border: solid black 5px;
+    position: absolute;
+    margin: 20px 10px 0px 100px;
+}
+.outer{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.container{
+    margin: auto;
+}
+
