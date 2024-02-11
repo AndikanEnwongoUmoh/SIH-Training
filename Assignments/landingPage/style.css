@@ -1,23 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-html {
+body {
   --primary-color: #5c48ee;
   --primary-color-dark: #0f1e6a;
   --secondary-color: #f9fafe;
   --text-color: #333333;
   --white: #ffffff;
   --max-width: 1200px;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-body {
-  font-family: "Poppins", sans-serif;
-  background-color: var(--secondary-color);
 }
 
 nav {
@@ -28,6 +25,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
 }
 
 .navLogo a {
@@ -70,22 +68,17 @@ nav {
 }
 
 .container {
-  max-width: var(--max-width);
-  margin: auto;
-  padding: 1rem;
-  min-height: calc(100vh - 100px);
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 5rem;
+  min-height: calc(100svh - 100px);
 }
-.container-2 {
+
+.space{
+ max-width: var(--max-width);
   margin: auto;
   padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 5rem;
-  justify-content: center;
-  background: linear-gradient(to right, var(--primary-color), var(--primary-color-dark));
+  
 }
 
 .contentContainer {
@@ -101,6 +94,56 @@ nav {
   color: var(--primary-color-dark);
   margin-bottom: 1rem;
 }
+
+#sec-2{
+  background:linear-gradient(to right, var(--primary-color),var(--primary-color-dark));
+  height: auto;
+  color: var(--secondary-color);
+}
+#sec-3{
+  background-image: url(./images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#About{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-holder {
+  width: 280px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+}
+
+.card-holder img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-holder h3 {
+  margin-top: 20px;
+  font-size: 24px;
+    color: #333333;
+}
+.card-holder p {
+  /* margin-top: 20px;
+  font-size: 24px; */
+    color: #333333;
+}
+
+
 
 .heading-1 {
   font-weight: 700;
@@ -190,6 +233,7 @@ nav {
   margin-bottom: 0.5rem;
 }
 
+
 @media (width < 900px) {
   .link a:not(.nav__btn) {
     display: none;
@@ -218,5 +262,21 @@ nav {
   .link > a{
     display: flex;
     flex-wrap: wrap;
+  }
+ 
+}
+@media(width < 1440px){
+   #sec-3{
+    background-image: none;
+  }
+ 
+}
+@media(width < 425px){
+   .imageContent{
+    display: none;
+  }
+
+  .imageContainer{
+    display: none;
   }
 }
